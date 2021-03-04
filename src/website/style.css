@@ -1,0 +1,471 @@
+ 
+
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.background{
+    background-color: #F1F3F6;
+    width: 1500px;
+    height: 2445px;
+    display: flex;
+    flex-direction: column;
+}
+.redbar{
+    display: flex;
+    background-color: red;
+    width: 1500px;
+    height: 72px;
+}
+.redone{
+    background-color: black;
+    width: 169px;
+    height: 49px;
+    margin-left: 47px;
+    margin-top: 10px;
+}
+.search{
+    width: 869px;
+    height: 43px;
+    background-color: white;
+    margin-left: 34px;
+    margin-top: 11px;
+    border-radius: 24px;
+    outline: none;
+}
+.green{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 58px;
+    background-color: #fff;
+}
+.mac,.iphone,.MobilePhones,.iPad,.laptop,.smartwatche,.camera{
+    width: 150px;
+    height: 58px;
+    margin-top: 0px;
+    border: none;
+    background-color:#fff;
+}
+.iphone2 .main-image{
+    left: 164px;
+    top: 218px;
+    width: 305px;
+    height: 417px;
+    align-items: center;
+    justify-content: center;
+}
+.mainone{
+    width: 491px 1px;
+    margin: 28px 0 0 22px;
+    border-radius: 3px;
+}
+.mainiphnebk{
+    width: 491px;
+    height: 496px;
+    border: solid rgb(194, 193, 193) 1px;
+    border-radius: 3px;
+}
+.mainoff{
+    width: 62px;
+    height: 23px;
+    margin: 16px 0 0 423px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+.mainiphnebk img{
+    width: 305px;
+    height: 417px;
+    margin: 0 100px 33px 108px;
+}
+.mainiphnof{
+    display: flex;
+    width: 491px;
+    height: 82px;
+    margin-top: 18px;
+    justify-content: space-between;
+
+}
+.mainiphnof div{
+    width: 86px;
+    border: solid rgb(194, 193, 193) 1px;
+    border-radius: 3px;
+}
+.mainiphnof div img{
+    width: 57px;
+    height: 65px;
+    margin: 13px;
+}
+.iphonehome{
+    display: flex;
+    width: 1388px;
+    height: 1141px;
+    margin: 14px;
+    margin-left: 56px;
+    margin-bottom: 0px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px rgb(0 0 0 / 10%);
+}
+.iphone2{
+    width: 491px;
+    height: 496px;
+    margin-left: 22px;
+    margin-top: 28px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+}
+.maintwo{
+    padding-left: 55px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 335px;
+}
+ .specalities{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 335px;
+}
+.gurantee,.replace,.support{
+    width: 154px;
+    height: 92px;
+    
+     /* left: 683px;
+    top: 489px;
+    width: 52px;
+    height: 54px;  */
+    
+    text-align: center;
+    margin-bottom: 55px;
+}
+/* .searchoptions{
+
+} */
+
+.buy{
+background-color: grey;
+color:black;
+left: 618px;
+top: 375px;
+width: 238px;
+height: 56px;
+}
+.add{
+background-color: red;
+color: white;
+left: 618px;
+top: 375px;
+width: 238px;
+height: 56px;
+}
+.login{
+left: 1301px;
+top: 26px;
+width: 38;
+height: 16;
+text-align: left;
+}
+.cart{
+    left: 1413px;
+    top: 27px;
+    width: 30px;
+    height: 13px;
+    text-align: left;
+    font-size: 16px;
+}
+/* .gurantee{
+    left: 683px;
+    top: 489px;
+    width: 52px;
+    height: 54px;
+}
+.replace{
+    left: 683px;
+    top: 489px;
+    width: 52px;
+    height: 54px;   
+}
+.support{
+
+} */
+.charger,.powrpleg,.airpod{
+    width: 154px;
+    height: 92px;
+    border: solid rgb(194, 193, 193) 1px;
+    border-radius: 3px;
+    
+    text-align: center;
+    margin-bottom: 29px;
+}
+.charger img,.powrpleg img,.airpod img{
+    margin: 16px 64px 39px 60px;
+}
+.maintwo h5{
+    width:120px;
+    height: 19px;
+    margin: 0 705px 24px 0;
+}
+.ulinline1,.ulinline2{
+    width: 213px;
+    height: 359px;
+    border: solid rgb(194, 193, 193) 1px;
+    float: left;
+    line-height: 35px;
+    font-size: 10px;
+    border-right: none;
+    padding-top: 25px ;
+    padding-left: 25px;
+    list-style: none;
+}
+.ulinline2{
+    height: 359px;
+    width: 532PX;
+    border: solid rgb(194, 193, 193) 1px;
+    border-left:none ;
+    padding-bottom:1px ;
+
+}
+.quotsmain{
+    display: flex;
+    width: 1388px;
+    height: 348px;
+    margin: 14px 59px 14px 53px;
+}
+.quotsmain2{
+    display: flex;
+    width:1107px ;
+    height: 348px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+
+}
+.quots p{
+    /* width: 633px;
+    height: 348px;
+    padding: 0; */
+    left: 592px;
+    width: 509px;
+    top: 1377px;
+    height: 109px;
+
+}
+.quots img{
+    width: 36px;
+    height: 28px;
+    margin: 20px 578px 0 0;
+
+}
+/* .smallimages{
+    width: 62px;
+    height: 23px;
+    margin: 16px 0 0 423px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+} */
+.quots h3{
+left: 593px;
+top: 1524px;
+width: 113px;
+height: 16px;
+font-size: 20px;
+text-align: left;
+}
+.quots {
+
+}
+.quots p {
+    width: 509px;
+    height: 109px;
+    margin: 30px 59px 0 10px;
+}
+.quots  blockquote::before{
+   content: '\201c'; 
+   left: 546px;
+   top: 1278px;
+   width: 36px;
+   height: 28px;
+
+   /* right: 25px;
+   top:-10px; */
+
+   
+   /* left: -40px; */
+
+}
+.quots  blockquote::after{
+    content: '\201d'; 
+    /* bottom: -30px; */
+    /* left: 25px;
+    bottom: -20px; */
+    left: 1077px;
+   top: 1582px;
+   width: 42px;
+   height: 33px;
+
+    
+ }
+ .quots  blockquote::before,
+ .quots  blockquote::after{
+     font-size: 6rem;
+     position: absolute;
+     color: grey;
+ }
+.quots h3{
+    width: 113px;
+    height: 16px;
+    margin: 0px 454px 30px 30px;
+}
+.quotsh6{
+    width: 125px;
+    height: 12px;
+    margin: 0px 443px 77px 30px;
+}
+.quotsimage1{
+    width: 445px;
+    height: 297px;
+    margin:23px 0 28px 29px ;
+}
+.quotsimage2{
+  width: 236px;  
+  height: 297px;
+  margin: 23px 0 28px 29px;
+  border-radius: 3px;
+}
+.quotsdivimage2{
+    width: 265px;
+    height: 348px;
+    background-color: white ;
+    margin: 0 0 0 16px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+}
+.iphoneoffer{
+    background-color: #fff;    
+    width: 1388px;
+    height: 386px;
+    margin: 53px;
+    margin-top: 14px;
+    margin-bottom: 0;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+}
+.footer{
+    width: 1499px;
+    height: 318px;
+    margin-top: 14px;
+    background-color: #fff;
+    
+}
+.foh5{
+    display: flex;
+    justify-content: center;
+    width: 1449px;
+    margin-left: 50px;
+}
+h4{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.anchordiv{
+    display:flex;
+    margin-left: 50px;
+}
+.span{
+    width: 25px;
+    height: 25px;
+}
+.img2{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+ul {
+    width: 290px;
+    list-style-type: none;
+    line-height: 25px;
+    padding: 0;
+}
+a{
+    font-size: 15px;
+    color: black;
+    height: 30px;
+}
+a:link{
+    text-decoration: none;
+}
+.you{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.offdiv1h6{
+    background-color: red;
+    width: 72px;
+    height: 23px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 8px;
+    justify-content: center;
+}
+.img1{
+    width: 66px;
+    height: 128px;
+}
+.img3{
+    width: 143px;
+    height: 125px;
+}
+.offdiv{
+    display:flex;
+    justify-content: space-between;
+}
+.offdiv1{
+    margin-left: 24px;
+}
+.offdiv5{
+    margin-right: 24px;
+}
+.socialimages{
+    margin-left: 20px;
+    
+}
+.gray{
+    color: grey;
+}
+/* .offdiv5 span{
+font-size: 15px;
+font-weight: 100;
+} */
+.offertype{
+    /* top: 90px; */
+    background-color: red;
+    color: white;
+    
+
+
+}
+.bigbox-section{
+    left: 618px;
+    top: 896px;
+    width: 745px;
+    height: 359px;
+    opacity: 1;
+    /* background-color: yellow; */
+    
+    border: grey;
+    border-radius: 4px;
+    border-width: 5px;
+    display: flex;
+    background-color: green;
+}
